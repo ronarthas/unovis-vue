@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+@import 'tailwindcss';
+/* @config "../../../tailwind.config.js"; */
+
+/* Import des polices */
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+@theme {
+  --color-primary: oklch(65.05% 0.1879 43.58); /* orange dataprofet */
+  --color-sucess: oklch(85.88% 0.1322 80.82); /* when action (form) are a sucess a toast*/
+  /* --color-danger: oklch(); when action fail (form)*/
+  --color-neutral: oklch(91.89% 0 0);
+  --color-background: oklch(97.59% 0.0099 267.36); /*background of the page */
+  --color-subtitle: oklch(75.37% 0.0505 271.06); /*color fo subtitle if we have*/
+  --color-title: oklch(35.96% 0.1066 272.38); /*big title color*/
+}
